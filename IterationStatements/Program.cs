@@ -80,9 +80,9 @@ namespace IterationStatements
                 // Decrement i by 1
 
             //start for loop here
-            for (var i=199; i<=(numbers.Count) &&i>=0;i--)
+            for (var i=199; i <= numbers.Count && i>=0; i--)
             {
-                Console.WriteLine(i);// place numbers[i] inside of the Console.WriteLine() method
+                Console.WriteLine(numbers[i]);// place numbers[i] inside of the Console.WriteLine() method
             }
 
             //------------End of exercise
